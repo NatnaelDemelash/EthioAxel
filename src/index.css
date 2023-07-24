@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Hind+Siliguri&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("./assets/bg-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-family: "Hind Siliguri", sans-serif;
+}
